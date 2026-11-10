@@ -16,7 +16,7 @@ abstraction (relation classe-à-interface, couplage faible) et non des classes c
 Le support INF461 présente deux manières d'implémenter la fabrique. Les deux sont réalisées
 ici, pour l'exemple du cours comme pour la variante.
 
-### Forme 1 : fabrique avec méthode de création paramétrée (« Factory Method », slides 16-23)
+### Forme 1 : fabrique avec méthode de création paramétrée (« Factory Method »)
 
 | Participant | Cours | Variante |
 |-------------|-------|----------|
@@ -31,7 +31,7 @@ classe à instancier avec un `switch`. Un type inconnu lève `IllegalArgumentExc
 Avantage : une seule fabrique, simple à utiliser quand le choix dépend d'une valeur connue à
 l'exécution. Limite : le `switch` doit être modifié pour chaque nouveau produit.
 
-### Forme 2 : fabrique abstraite et fabriques concrètes (slides 24-30)
+### Forme 2 : fabrique abstraite et fabriques concrètes 
 
 | Participant | Cours | Variante |
 |-------------|-------|----------|
