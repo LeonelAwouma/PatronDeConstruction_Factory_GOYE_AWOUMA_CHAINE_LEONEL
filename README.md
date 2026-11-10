@@ -19,7 +19,7 @@ Factory/
 └── documentation/              Analyse, rapport (Word et PDF), scripts de génération
 ```
 
-## Les deux formes du patron Factory (support INF461, p. 15 à 30)
+## Les deux formes du patron Factory 
 
 | Forme | Principe | Classes (cours) | Classes (variante) |
 |-------|----------|-----------------|--------------------|
@@ -67,8 +67,8 @@ Erreur : Type de produit inconnu (D)
 
 | Diagramme | Fichier DIA | Image |
 |-----------|-------------|-------|
-| Cours, Factory Method (slide 19) | `Cours/uml/factory_method.dia` | ![Factory Method](Cours/uml/factory_method.png) |
-| Cours, fabrique abstraite (slide 24) | `Cours/uml/factory_abstraite.dia` | ![Fabrique abstraite](Cours/uml/factory_abstraite.png) |
+| Cours, Factory Method | `Cours/uml/factory_method.dia` | ![Factory Method](Cours/uml/factory_method.png) |
+| Cours, fabrique abstraite | `Cours/uml/factory_abstraite.dia` | ![Fabrique abstraite](Cours/uml/factory_abstraite.png) |
 | Variante, Factory Method | `variantes/uml/notification_factory_method.dia` | ![Notifications Factory Method](variantes/uml/notification_factory_method.png) |
 | Variante, fabrique abstraite | `variantes/uml/notification_factory_abstraite.dia` | ![Notifications fabrique abstraite](variantes/uml/notification_factory_abstraite.png) |
 
