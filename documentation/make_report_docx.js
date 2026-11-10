@@ -232,7 +232,7 @@ Erreur : Canal de notification inconnu : FAX
   ], [2000, 4272, 2800]),
 
   h1("7. Dépôt GitHub"),
-  rich("Le code source complet (exemple du cours et exemple modifié), les diagrammes DIA avec leurs exports PNG, le script de compilation et l'analyse sont disponibles à l'adresse :"),
+  rich("Le code source complet (exemple du cours et exemple modifié), les diagrammes DIA avec leurs exports PNG, l'analyse et les scripts de génération sont disponibles à l'adresse :"),
   p([run(REPO)], { alignment: AlignmentType.LEFT }),
   ...table(["Dossier", "Contenu"], [
     ["Cours/src/factorymethod", "Exemple du cours, forme Factory Method"],
@@ -242,7 +242,6 @@ Erreur : Canal de notification inconnu : FAX
     ["variantes/src/factoryabstraite", "Variante Notifications, forme fabrique abstraite"],
     ["variantes/uml", "Diagrammes DIA et PNG de la variante"],
     ["documentation", "analyse.md, rapport, scripts de génération"],
-    ["build.sh", "Compile et exécute les quatre programmes (JDK 17)"],
   ], [3200, 5872]),
   rich("Compilation et exécution :"),
   ...codeBlock(null, `javac -d out/cours $(find Cours/src -name '*.java')

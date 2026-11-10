@@ -16,8 +16,7 @@ Factory/
 │   ├── src/factorymethod/
 │   ├── src/factoryabstraite/
 │   └── uml/
-├── documentation/analyse.md    Analyse et justification du modèle générique
-└── build.sh                    Compile et exécute les quatre programmes
+└── documentation/              Analyse, rapport (Word et PDF), scripts de génération
 ```
 
 ## Les deux formes du patron Factory (support INF461, p. 15 à 30)
@@ -53,8 +52,6 @@ java -cp out/variantes factorymethod.Client            # teste EMAIL, SMS, PUSH 
 java -cp out/variantes factorymethod.Client SMS PUSH   # canaux choisis à l'exécution
 java -cp out/variantes factoryabstraite.Client
 ```
-
-Ou simplement : `./build.sh` (Git Bash / Linux / macOS).
 
 ## Résultat attendu (extrait)
 
