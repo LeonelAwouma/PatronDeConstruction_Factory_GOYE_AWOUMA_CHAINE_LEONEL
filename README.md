@@ -1,6 +1,6 @@
 # Patron de construction : Factory (Fabrique)
 
-Devoir n° 1 – INF4067 / INF461 – GOYE AWOUMA CHAINE LEONEL.
+Devoir n° 1 – INF461 – GOYE AWOUMA CHAINE LEONEL.
 
 Le patron Factory crée un objet dont le type n'est connu qu'à l'exécution, sans que le client
 manipule les classes concrètes. Il est implémenté ici sous ses deux formes vues en cours :
