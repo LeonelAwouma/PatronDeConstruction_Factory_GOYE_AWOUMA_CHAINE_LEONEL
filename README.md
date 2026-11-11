@@ -16,7 +16,7 @@ Factory/
 │   ├── src/factorymethod/
 │   ├── src/factoryabstraite/
 │   └── uml/
-└── documentation/              Analyse, rapport (Word et PDF), scripts de génération
+└── documentation/              Analyse et script de génération des diagrammes
 ```
 
 ## Les deux formes du patron Factory 
