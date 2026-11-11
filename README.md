@@ -12,11 +12,10 @@ Factory/
 │   ├── src/factorymethod/      Forme 1 : fabrique avec méthode de création paramétrée
 │   ├── src/factoryabstraite/   Forme 2 : fabrique abstraite + fabriques concrètes
 │   └── uml/                    Diagrammes DIA (.dia) et exports (.png)
-├── variantes/                  Exemple modifié (notifications Email / SMS / Push)
+└── variantes/                  Exemple modifié (notifications Email / SMS / Push)
 │   ├── src/factorymethod/
 │   ├── src/factoryabstraite/
 │   └── uml/
-└── documentation/              Analyse et script de génération des diagrammes
 ```
 
 ## Les deux formes du patron Factory 
